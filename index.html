@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Interactive Photo Gallery</h1>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+
+        <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600"
+            alt="Beautiful mountain landscape"
+            onmouseover="update(this)"
+            onmouseout="undo()"
+        >
+
+        <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600"
+            alt="Beautiful lake surrounded by mountains"
+            onmouseover="update(this)"
+            onmouseout="undo()"
+        >
+
+        <img
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600"
+            alt="Beautiful beach and ocean"
+            onmouseover="update(this)"
+            onmouseout="undo()"
+        >
+
+        <img
+            src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600"
+            alt="Beautiful sunrise in nature"
+            onmouseover="update(this)"
+            onmouseout="undo()"
+        >
+
+    </div>
+
+</body>
+</html>
